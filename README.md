@@ -7,7 +7,7 @@ TRANSLATION:
 It's an interesting kind of thing in human history to have a technology with a completely anonymous inventor...
 
 ...TOKEN 00 
-(https://ipfs.filebase.io/ipfs/QmX82xgPcdGShE1swbpUxeNuP2zvW9bDEP7DBWZjeJLyDR).
+.![image](https://ipfs.filebase.io/ipfs/QmX82xgPcdGShE1swbpUxeNuP2zvW9bDEP7DBWZjeJLyDR).
 ...TOKEN 000
 ![image](https://ipfs.filebase.io/ipfs/QmaDb2kWY9cuLjuwxhDERPNW8aEYwcUnfVaDaQdNjhwrTJ)
 ...TOKEN 0000
