@@ -6,7 +6,8 @@ QUOTE:
 TRANSLATION:
 It's an interesting kind of thing in human history to have a technology with a completely anonymous inventor...
 /***
-...
+...TOKEN 00 : https://solscan.io/token/DAGPXy38tgtpLfG2Lemy2JiLUyN4gToAbDMrpe7DgJYe
+...TOKEN 000
 ![image](https://ipfs.filebase.io/ipfs/QmaDb2kWY9cuLjuwxhDERPNW8aEYwcUnfVaDaQdNjhwrTJ)
-...
+...TOKEN 0000
 ![image](https://ipfs.filebase.io/ipfs/QmR9Cp9HP8KU53svwZcN4M7L1rarDmvYJBx7Sb8uFJWjSb)
