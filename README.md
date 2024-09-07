@@ -1,5 +1,5 @@
 # BANKSYYYY-COIN
-Crypto ⁴ALL - Limited Edition of 64 Tokens to commemorate Tech and Gaming History.
+Crypto ⁴ALL - Limited Edition of 64 Tokens to Commemorate Tech and Gaming History.
 ***
 QUOTE:
 完全に匿名の発明者のテクノロジーが あるというのは、人類の歴史の興味 深い種類のです...
