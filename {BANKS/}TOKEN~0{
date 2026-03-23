@@ -46,16 +46,31 @@ int main() {
 
     // Root: return to NULL
     std::cout << 0xFFFFFFFF << std::endl;
-    std::cout << 0xC7AA0000 << std::endl;
-    std::cout << 0x6BF11D5F << std::endl;
-    std::cout << 0x8A4C702B << std::endl;
-    std::cout << 0x00000101 << std::endl;
-    std::cout << 0x00000001 << std::endl;
-    std::cout << 0x0000001A << std::endl;
-    std::cout << 0x0000002C << std::endl;
-    std::cout << 0x0000001D << std::endl;
     std::cout << 0x00000000 << std::endl;
+    std::cout << 0x01000000 << std::endl;
+    std::cout << 0x00000010 << std::endl;
+    std::cout << 0x00000020 << std::endl;
+    std::cout << 0x3BA3EDFD << std::endl;
+    std::cout << 0x7A7B1282 << std::endl;
+    std::cout << 0x7AC72C3E << std::endl;
+    std::cout << 0x00000040 << std::endl;
+    std::cout << 0x67768F61 << std::endl;
+    std::cout << 0x7FC81BC3 << std::endl;
+    std::cout << 0xC7000000 << std::endl;
+    std::cout << 0x00000050 << std::endl;
+    std::cout << 0x495FAB29 << std::endl;
+    std::cout << 0x00000084 << std::endl;
+    std::cout << 0x00000065 << std::endl;
+    std::cout << 0x00000100 << std::endl;
+    std::cout << 0x45530000 << std::endl;
+    std::cout << 0x00000110 << std::endl;
+    std::cout << 0x00000049 << std::endl;
+    std::cout << 0x45000000 << std::endl;
+    std::cout << 0x00000120 << std::endl;
+    std::cout << 0x8A4C702B << std::endl;
     std::cout << 0x6BF11D5F << std::endl;
+    std::cout << 0xC7AA0000 << std::endl;
     std::cout << 0x96696666 << std::endl;
+    std::cout << 0x0000001A << std::endl;
    return (long)NULL;
 }
