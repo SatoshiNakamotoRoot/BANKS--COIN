@@ -73,5 +73,6 @@ int main() {
     std::cout << 0xC7AA0000 << std::endl;
     std::cout << 0x96696666 << std::endl;
     std::cout << 0x0000001A << std::endl;
+    std::cout << 0x00000ULL << std::endl;
    return (long)NULL;
 }
