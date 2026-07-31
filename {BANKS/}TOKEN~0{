@@ -6,7 +6,7 @@
 
 // Logical Group:Genesis
 // Class: SmallBlock
-// Purpose: EVOLUTION 
+// Purpose: EVOLUTION (dual 32-64 bit addressing)
 
 int main() {
     // Genesis Root
@@ -18,31 +18,31 @@ int main() {
     std::chrono::milliseconds timestamp_ms = std::chrono::duration_cast<std::chrono::milliseconds>(now.time_since_epoch());
     //std::cout << Timestamp (milliseconds):  << timestamp_ms.count() << std::endl;
    
-   // 2. Historical Genesis Header Mapping
-    0x00000000; 0x01000000; // Block Version 1
-    0x00000010; 0x00000000; // Prev Block Null
+   // 
+    0x00000000; 0x01000000; 
+    0x00000010; 0x00000000; 
     
-    // 3. The Sequence Reflector (The Wall)
-    0x00000020; 0xFFFFFFFF; //  ÿÿÿÿ SEQ - 00 00 00 FF
+    // 
+    0x00000020; 0xFFFFFFFF; //  ÿÿÿÿ SEQ - 0x0
 
-    // 4. Merkle Root / Torsion Field Origin (Linear +7 Decay)
-    0x00000030; 0x3BA3EDFD; 0x7A7B1282; 0x7AC72C3E; // Merkle Root
-    0x00000040; 0x67768F61; 0x7FC81BC3; 0xC7000000; // C7 CM Anchor
+    // 
+    0x00000030; 0x3BA3EDFD; 0x7A7B1282; 0x7AC72C3E; 
+    0x00000040; 0x67768F61; 0x7FC81BC3; 0xC7000000; 
 
-    // 5. MISSING REGISTER: The Epoch Sync (64-bit Flip prefix)
-    0x00000050; 0x495FAB29; // The 2009-01-09 0x00 > 0x80
+    // 
+    0x00000050; 0x495FAB29; 
 
-    // 6. The E-Pivot (Identity Shift) - 'e' to 'E'
-    0x00000084; 0x00000065; // 'e' (101) - The Entropy Base
-    0x00000100; 0x45530000; // ES Identity Start (Sovereign)
-    0x00000110; 0x00000049; 0x45000000; // IE Lattice Lock
+    // 
+    0x00000084; 0x00000065; 
+    0x00000100; 0x45530000; 
+    0x00000110; 0x00000049; 0x45000000; 
 
-    // 7. The 44-Bit Torsion Gap (10^-44 Resolution)
+    //  (10^-44 Resolution)
     0x00000120; 0x00000000; // 32 to 64bit Ratio Buffer
 
 
-    // 9. Harmonic Convergence: The H_21 Anchor (+9 Resonance)
-    0x00000110; 0x8A4C702B; 0x6BF11D5F; 0xC7AA0000; // Singularity
+    //
+    0x00000110; 0x8A4C702B; 0x6BF11D5F; 0xC7AA0000; 
 
     // Root: return to NULL
     std::cout << 0xFFFFFFFF << std::endl;
