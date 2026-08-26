@@ -51,7 +51,7 @@ int main() {
     0x00000110; 0x8A4C702B; 0x6BF11D5F; 0xC7AA0000; 
 
     // Root: return to NULL
-    std::cout << 0xFFFFFFFF << std::endl;
+    std::cout << 0xFFFFFFFFF << std::endl;
     std::cout << 0x495FAB29 << std::endl;
     std::cout << 0x00000000 << std::endl;
     std::cout << 0x01000000 << std::endl;
